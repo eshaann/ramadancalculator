@@ -7,27 +7,48 @@
 body {
     font-family: "Open-Sans";
 }
+h1 {
+    color: white;
+}
+h2,h3{
+    font-size:5rem;
+    font-weight:bold;
+    align-items:center;
+    display: flex;
+    color: orange ;
+}
 
-h2{
+#head {
     font-size:5rem;
     font-weight:bold;
     padding: 3rem;
-}
-
-.coming-soon{
-    min-height:100vh;
-    display: flex;
     align-items:center;
-    flex-direction: column;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
-.countdown{
+#countdown{
     display:flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.hour,.second,.minute {
+#hr,#sec,#min,#day {
     font-size:3rem;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    border-style: solid;
+}
+
+#coming-soon {
+    min-height:100vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://www.wvnstv.com/wp-content/uploads/sites/76/2020/10/faf5c79cc28645e9a162e3508de95374.jpg?strip=1%22");
+    background-size:cover;
 }
